@@ -1,3 +1,10 @@
+# This is a work in progress
+In this experiment, you control the robotic arm k
+
+
+# Original  README
+Source: https://github.com/glumb/robot-gui
+
 # robot-gui
 A three.js based 3D robot interface. 
 
