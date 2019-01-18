@@ -1,27 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+<!doctype html>
+<html>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+<head>
+  <title>Robot Gui by Maximilian Beck</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <script src="js/require.js" charset="utf-8"></script>
+  <!-- <script src="/socket.io/socket.io.js"></script> -->
+
+  <script src="vendor/three.js/Three.js"></script>
+  <script src="vendor/three.js/Detector.js"></script>
+  <script src="vendor/three.js/Stats.js"></script>
+
+  <script src="vendor/threex/THREEx.screenshot.js"></script>
+  <script src="vendor/threex/THREEx.FullScreen.js"></script>
+  <script src="vendor/threex/THREEx.WindowResize.js"></script>
+  <script src="vendor/three.js/OrbitControls.js"></script>
+  <script src="vendor/three.js/TransformControls.js"></script>
+  <script src="vendor/EventDispatcher.js"></script>
+  <script src="js/THREERobot.js"></script>
+
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- three.js container -->
+  <div id="container"></div>
+
+  <script type="text/javascript">
+
+    var debug = {}
+    requirejs.config({
+      // urlArgs: "bust=" + (new Date()).getTime(),
+      baseUrl: 'js',
+      paths: {
+        State: '../vendor/state/State',
+        Kinematic: 'InverseKinematic'
+      },
+    });
+
+    require(['Hmi'], function(Hmi) {
+      let hmi = new Hmi()
+    });
+  </script>
+</body>
+
 </html>
