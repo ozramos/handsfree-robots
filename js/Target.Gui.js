@@ -132,7 +132,11 @@ define((require, exports, module) => {
 
 
   window.robot = {
-    position: targetGUI.__controllers[3]
+    position: {
+      x: targetGUI.__controllers[3],
+      y: targetGUI.__controllers[4],
+      z: targetGUI.__controllers[5]
+    }
   }
   
   module.exports = targetGuiStore
