@@ -1,2 +1,6 @@
 const handsfree = new Handsfree()
-handsfree.start()
+// handsfree.start()
+
+/* global
+Handsfree
+*/

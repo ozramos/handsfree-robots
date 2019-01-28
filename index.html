@@ -6,6 +6,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- three.js container -->
+  <div id="container"></div>
+
+  <!-- Handsfree -->
+  <script src="https://unpkg.com/handsfree@4.0.3/dist/handsfree.js"></script>
+  <script src="handsfree.js"></script>
+  
   <script src="js/require.js" charset="utf-8"></script>
   <!-- <script src="/socket.io/socket.io.js"></script> -->
 
@@ -20,13 +31,6 @@
   <script src="vendor/three.js/TransformControls.js"></script>
   <script src="vendor/EventDispatcher.js"></script>
   <script src="js/THREERobot.js"></script>
-
-  <link href="css/main.css" rel="stylesheet" />
-</head>
-
-<body>
-  <!-- three.js container -->
-  <div id="container"></div>
 
   <script type="text/javascript">
 
@@ -44,9 +48,5 @@
       let hmi = new Hmi()
     });
   </script>
-
-  
-  <script src="https://unpkg.com/handsfree@4.0.1/dist/handsfree.js"></script>
-  <script src="/handsfree.js"></script>
 </body>
 </html>
