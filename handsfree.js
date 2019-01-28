@@ -1,4 +1,4 @@
-const handsfree = new Handsfree()
+const handsfree = new Handsfree({hideCursor: true})
 // handsfree.start()
 
 /* global

@@ -36,7 +36,7 @@ define((require, exports, module) => {
     manipulate: 'world',
     controlMode: 't/r',
   }
-
+  
   targetStore.listen([() => targetGuiStore.getStore('Robot').getState().target, state => state], (targetT, state) => {
     helper.followTarget = state.followTarget
     helper.eulerRingsVisible = state.eulerRingsVisible
@@ -130,5 +130,8 @@ define((require, exports, module) => {
     targetStore.dispatch('SET_CONTROL_VISIBLE', helper.controlVisible)
   })
 
+
+  window.gui = targetGUI
+  
   module.exports = targetGuiStore
 })
