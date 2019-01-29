@@ -1,5 +1,7 @@
 # This is a work in progress
-In this experiment, you control the robotic arm k
+![](https://media.giphy.com/media/2Y7tjKhvwNj4cSUP5u/giphy.gif)
+
+In this experiment, you control the robotic arm with your head! This project is configured to help you puppeteer the robot (imagine a face on the end), but you can open up [/handsfree.js](https://glitch.com/edit/#!/handsfree-robots?path=handsfree.js:8:13)
 
 
 # Original  README
