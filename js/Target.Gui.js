@@ -136,6 +136,11 @@ define((require, exports, module) => {
       x: targetGUI.__controllers[3],
       y: targetGUI.__controllers[4],
       z: targetGUI.__controllers[5]
+    },
+    rotation: {
+      x: targetGUI.__controllers[6],
+      y: targetGUI.__controllers[7],
+      z: targetGUI.__controllers[8]
     }
   }
   
