@@ -98,7 +98,7 @@ div.dg li:not(.folder) {
 /* Handsfree */
 .handsfree-debugger {
   position: fixed !important;
-  width: 200px;
+  width: 250px;
   bottom: 0;
   right: 0;
 }
