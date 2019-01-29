@@ -94,3 +94,16 @@ div.dg li:not(.folder) {
 .dg .c .slider:hover {
     background: #eee!important;
 }
+
+/* Handsfree */
+.handsfree-debugger {
+  position: fixed !important;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+}
+
+.handsfree-debugger video {
+  width: 100%;
+  height: auto;
+}
