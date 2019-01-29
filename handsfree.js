@@ -1,7 +1,4 @@
 const handsfree = new Handsfree({hideCursor: true, debug: true})
-handsfree.on('ready', () => {
-  console.log('READY')
-})
 
 handsfree.use({
   name: 'robotController',

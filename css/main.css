@@ -117,3 +117,26 @@ div.dg li:not(.folder) {
   line-height: 15px;
   background: red;
 }
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 25%;
+}
+
+.handsfree-ready #loader {display: none}
+
+.glitchButton {
+  position: fixed !important;
+  z-index: 9999;
+  top: 0;
+  right: 280px;
+}
