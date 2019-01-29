@@ -107,3 +107,13 @@ div.dg li:not(.folder) {
   width: 100%;
   height: auto;
 }
+
+.handsfree-toggle-button {
+  position: fixed;
+  top: 0;
+  height: 30px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 15px;
+  background: red;
+}
