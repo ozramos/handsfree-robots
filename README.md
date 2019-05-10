@@ -3,6 +3,8 @@
 
 In this experiment, you control the robotic arm with your head! This project is configured to help you puppeteer the robot (imagine a face on the end), but you can open up [/handsfree.js](https://glitch.com/edit/#!/handsfree-robots?path=handsfree.js:8:13) and edit the `onFrame` callback.
 
+- Move head to move arm
+- Click and drag to rotate the view
 
 # Original  README
 Source: https://github.com/glumb/robot-gui
