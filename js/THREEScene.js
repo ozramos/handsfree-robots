@@ -33,7 +33,7 @@ define((require, exports, module) => {
   }
 
   camera.up.set(0, 0, 1)
-  camera.position.set(25, 25, 25)
+  camera.position.set(35,35,35)
   scene.add(camera)
 
   // lights
